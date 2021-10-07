@@ -10,11 +10,13 @@
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lucida Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{

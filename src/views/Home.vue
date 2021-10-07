@@ -3,7 +3,7 @@
     <div class="movies-list">
       <div class="movie" v-for="movie in movies" :key="movie.id">
         <router-link :to="'/movie/' + movie.id" class="movie-link">
-          <h3>{{movie.fullTitle}}</h3>
+          <h2>{{movie.fullTitle}}</h2>
           <div class="image">
           <img :src="movie.image" alt="Movie Poster"/>
           </div>
@@ -52,11 +52,10 @@ export default {
     display: flex;
     flex-direction: column;
     height: 100%;
-    h3{
+    h2{
       color: #000000;
-      font-size: 0.875rem;
-      font-weight: 400;
-      font-family: 'Lucida Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
       padding: 0.5rem;
     }
     .image {
