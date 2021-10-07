@@ -31,7 +31,6 @@ export default {
       fetch(`https://imdb-api.com/en/API/Title/${env.apikey}/${route.params.id}`)
         .then(response => response.json())
         .then(data => {
-          console.log(data)
           movie.value = data;
         });
     });
