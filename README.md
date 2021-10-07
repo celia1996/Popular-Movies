@@ -1,7 +1,10 @@
 # movies-app
 
 This is a vue app to display the actual popular movies.
-You can clone it with the command: `git clone https://github.com/celia1996/Popular-Movies.git`
+You can clone it with the following command:
+```
+git clone https://github.com/celia1996/Popular-Movies.git
+```
 ## Project setup
 First of all you need to:
 ```
