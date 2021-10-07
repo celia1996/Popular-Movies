@@ -1,12 +1,14 @@
 <template>
-<header>
-  <router-link to="/">
-  <h1 class="app-title">Popular movies</h1>
-  </router-link>
-</header>
-<main>
-  <router-view/>
-</main>
+<div>
+  <header>
+    <router-link to="/">
+    <h1 class="app-title">Popular movies</h1>
+    </router-link>
+  </header>
+  <main>
+    <router-view/>
+  </main>
+</div>
 </template>
 
 <style lang="scss">
