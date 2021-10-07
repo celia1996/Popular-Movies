@@ -49,7 +49,7 @@ export default {
     width: 40rem ;
   }
   p{
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     max-width: 40rem;
     font-size: 0.875rem;
     font-weight: 400;
