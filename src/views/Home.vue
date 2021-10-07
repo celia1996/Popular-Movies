@@ -24,7 +24,6 @@ export default {
         fetch(`https://imdb-api.com/en/API/MostPopularMovies/${env.apikey}`)
           .then(response => response.json())
           .then(data => {
-            console.log(data)
             movies.value = data.items;
         })
     })
