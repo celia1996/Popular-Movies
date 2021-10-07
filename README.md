@@ -1,5 +1,6 @@
 # movies-app
 
+This is a vue app to display the actual popular movies.
 ## Project setup
 ```
 npm install
@@ -24,6 +25,3 @@ npm run test:unit
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
