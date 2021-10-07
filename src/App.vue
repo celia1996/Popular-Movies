@@ -1,7 +1,7 @@
 <template>
 <header>
   <router-link to="/">
-  <h1>Popular movies</h1>
+  <h1 class="app-title">Popular movies</h1>
   </router-link>
 </header>
 <main>
@@ -33,13 +33,8 @@ header{
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
 }
-
-h1{
-  color:white;
-  font-size: 2rem;
-  span{
-    color: #42b883
-
-  }
+.app-title{
+  color: white;
 }
+
 </style>

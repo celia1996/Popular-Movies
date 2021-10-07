@@ -40,9 +40,10 @@ export default {
     flex-wrap: wrap;
     display: flex;
     padding: 1rem;
+    justify-content: center;
 }
 .movie{
-  max-width: 50%;
+  width: 15rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -61,7 +62,7 @@ export default {
     .image {
       display: block;
       width: 100%;
-      height: 275px;
+      height: 18rem;
       object-fit: cover;
     img{
       padding: 0.5rem;
