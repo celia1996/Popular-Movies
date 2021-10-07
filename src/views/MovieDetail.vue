@@ -12,9 +12,7 @@
     </div>
     <div class="cast">
     <h2>Cast</h2>
-      <div class="actor" v-for="actor in movie.actorList" :key="actor.id">
-        <p>{{ actor.name }} as {{actor.asCharacter}}</p>
-      </div>
+      {{ movie.stars }}
     </div>
   </div>
 </template>
